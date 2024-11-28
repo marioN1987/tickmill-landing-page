@@ -1,0 +1,136 @@
+.bg-grey-color {
+    background-color: #24d9c4;
+    border-color: #24d9c4;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.hero-section {
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    > .container > .row {
+        min-height: 1200px;
+    }
+}
+
+.second-section {
+    background-color: #fff;
+
+    > .container {
+        max-width: 1533px;
+        padding-block: 150px;
+
+        > .splitted-boxes {
+            > .box-container {
+                .box {
+                    background-color: #e8e8e8;
+
+                    > h3 {
+                        color: #cc0000;
+                    }
+
+                    > ul {
+                        list-style: none;
+                        margin-top: 30px;
+                        padding: 0px;
+
+                        li {
+                            position: relative;
+
+                            > p {
+                                padding-left: 20px;
+                            }
+
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                left: 5px;
+                                top: 50%;
+                                display: block;
+                                border-right: 3px solid #cc0000;
+                                border-bottom: 3px solid #cc0000;
+                                width: 10px;
+                                height: 10px;
+                                transform: translate(-50%, -50%) rotate(-45deg);
+                            }
+                            & + li {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.third-section {
+    background-image: url("../images/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+    > .container {
+        height: 100%;
+        > .row {
+            height: 100%;
+            > div {
+                > h2 {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.fourth-section {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+
+    > .container {
+        height: 100%;
+        > .row {
+            height: 100%;
+
+            > div {
+                > h2 {
+                    color: #303030;
+                }
+                
+                > h3 {
+                    max-width: 623px;
+                    color: #303030;
+                }
+            }
+        }
+    }
+}
+
+.fifth-section {
+    background-color: #fff;
+    height: 600px;
+
+    > .container {
+        height: 100%;
+        > .row {
+            height: 100%;
+
+            > .text-section {
+                > .description {
+                    color: #303030;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #d1d1d1;
+}
